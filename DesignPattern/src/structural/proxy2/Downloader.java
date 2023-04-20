@@ -1,5 +1,5 @@
 package structural.proxy2;
 
 public interface Downloader {
-    void download();
+    void download(String useragent, String url);
 }
